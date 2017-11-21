@@ -76,17 +76,6 @@
             android:textOn="@string/men" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/swoosh_toggle"
-            android:fontFamily="@font/alegreya_sc"
-            android:text="@string/coed"
-            android:textColor="@android:color/white"
-            android:textOff="@string/coed"
-            android:textOn="@string/coed" />
-
-        <ToggleButton
             android:id="@+id/toggleButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +87,17 @@
             android:textColor="@android:color/white"
             android:textOff="@string/women"
             android:textOn="@string/women" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/swoosh_toggle"
+            android:fontFamily="@font/alegreya_sc"
+            android:text="@string/coed"
+            android:textColor="@android:color/white"
+            android:textOff="@string/coed"
+            android:textOn="@string/coed" />
 
     </LinearLayout>
 
