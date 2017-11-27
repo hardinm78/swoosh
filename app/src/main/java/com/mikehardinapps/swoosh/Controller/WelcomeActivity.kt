@@ -1,7 +1,8 @@
-package com.mikehardinapps.swoosh
+package com.mikehardinapps.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
+import com.mikehardinapps.swoosh.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 
@@ -12,7 +13,7 @@ class WelcomeActivity : BaseActivity() {
         setContentView(R.layout.activity_welcome)
 
         getStartedBtn.setOnClickListener {
-            val leagueIntent = Intent(this,LeagueActivity::class.java)
+            val leagueIntent = Intent(this, LeagueActivity::class.java)
             startActivity(leagueIntent)
         }
 

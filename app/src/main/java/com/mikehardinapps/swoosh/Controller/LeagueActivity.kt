@@ -1,9 +1,11 @@
-package com.mikehardinapps.swoosh
+package com.mikehardinapps.swoosh.Controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.mikehardinapps.swoosh.Utilities.EXTRA_LEAGUE
+import com.mikehardinapps.swoosh.R
 import kotlinx.android.synthetic.main.activity_league.*
 
 class LeagueActivity : BaseActivity() {
